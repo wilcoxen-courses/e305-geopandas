@@ -1,9 +1,9 @@
 """
-demo.py
+geopandas-check.py
 Spring 2023 PJW
 
-Demonstrate the use of geopandas by plotting the boundary of Syracuse.
-Main use is as a quick check to verify that geopandas is installed correctly.
+Plot the boundary of Syracuse as a quick check to verify that geopandas 
+is installed correctly.
 """
 
 #  Import the modules we'll need
