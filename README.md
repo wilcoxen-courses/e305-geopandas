@@ -14,7 +14,9 @@ There is one deliverable, **geopandas-check.png**, an image showing the city's b
 
 ## Instructions
 
-1. Install geopandas following the instructions on the class web page under "Software Packages" and then "Geopandas". The direct URL is [https://wilcoxen.maxwell.insightworks.com/pages/geopandas/](https://wilcoxen.maxwell.insightworks.com/pages/geopandas/). Geopandas is a very powerful module but it's also cutting-edge and can be a little tricky and time-consuming to install. Please follow the directions closely. If anything goes wrong, get in touch right away. Resist the temptation to Google for solutions: in the past that has often made things considerably worse.
+1. Install geopandas following the instructions on the class web page under "Software Packages" and then "Geopandas". The direct URL is [https://wilcoxen.maxwell.insightworks.com/pages/geopandas/](https://wilcoxen.maxwell.insightworks.com/pages/geopandas/). Geopandas is a very powerful module but it's also cutting-edge and can be a little tricky and time-consuming to install. Please follow the directions closely.
+
+1. If anything goes wrong and geopandas doesn't install, run *geopandas-diag.py*. It will save a bunch of information about your Anaconda configuration in a file called *geopandas-diag.log*. Send the log file to me via Slack with a short note about what went wrong. I'll get back to you with suggestions about what to do. In the mean time, resist the temptation to Google for solutions: in the past that has often made things considerably worse.
 
 1. Once geopandas is installed, run the demo script for the assignment. If all goes well, you'll see the outline of Syracuse. If anything goes wrong, get in touch and let me know what happened.
 
