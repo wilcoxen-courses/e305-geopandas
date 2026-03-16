@@ -27,12 +27,12 @@ print('Attributes found:',list(syr.columns))
 
 #  Now plot it
 
-fig1,ax1 = plt.subplots()
-fig1.suptitle('City of Syracuse')
-syr.plot(color='xkcd:lightblue',ax=ax1)
-syr.boundary.plot(color='gray',linewidth=1,ax=ax1)
-ax1.axis('off')
-fig1.tight_layout()
-fig1.savefig('geopandas-check.png')
+fig,ax = plt.subplots()
+fig.suptitle('City of Syracuse')
+syr.plot(color='xkcd:lightblue',ax=ax)
+syr.boundary.plot(color='gray',linewidth=1,ax=ax)
+ax.axis('off')
+fig.tight_layout()
+fig.savefig('geopandas-check.png')
 
 print('Map saved')
